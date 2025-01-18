@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>🎉 Happy Birthday 🎉</h1>
+      <p class="subtitle">Today is your special day! Celebrate with joy and love.</p>
+    </header>
+
+    <!-- Balloons Section -->
+    <section class="balloons-section">
+      <canvas id="balloonCanvas"></canvas>
+    </section>
+
+    <!-- Message Section -->
+    <section class="message-section">
+      <div class="message-container">
+        <h2>Leave a Birthday Wish</h2>
+        <textarea id="messageInput" placeholder="Type your message here..."></textarea>
+        <a id="sendEmail" href="#">
+          <button id="sendMessage">Send Your Wish</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made with ❤️ for your special day</p>
+    </footer>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="backgroundMusic" loop autoplay>
+    <source src="music/background-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
